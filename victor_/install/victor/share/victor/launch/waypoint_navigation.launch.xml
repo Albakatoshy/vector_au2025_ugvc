@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<launch xmlns="http://ros.org/ns/launch" xmlns:if="http://ros.org/ns/launch/if" xmlns:arg="http://ros.org/ns/launch/arg">
+
+  <!-- Arguments -->
+  <arg name="use_sim_time" default="true"/>
+  <arg name="robot_description_file" default="$(find-pkg-share your_package_name)/urdf/your_robot.urdf"/>
+  
+  <!-- Robot State Publisher -->
+  <node pkg="robot_state_publisher" exec="robot_state_publisher" name="robot_state_publisher" output="screen">
+    <param name="use_sim_time" value="$(var use_sim_time)"/>
+    <param name="robot_description" command="$(find xacro)/xacro $(var robot_description_file)"/>
+  </node>
+
+  <!-- Diff Drive Gazebo Plugin (URDF must contain the <gazebo> plugin you already wrote) -->
+  <!-- Gazebo will handle this from SDF parsed from URDF, no extra launch needed -->
+
+  <!-- Static Transform from base_link to base_footprint -->
+  <node pkg="tf2_ros" exec="static_transform_publisher" name="base_link_to_footprint_broadcaster"
+        args="0 0 0 0 0 0 base_link base_footprint" output="screen"/>
+
+  <!-- Pure Pursuit Node -->
+  <node pkg="victor_planning" exec="pure_pursuit_motion_planner.py" name="pure_pursuit_motion_planner_node" output="screen">
+    <param name="look_ahead_distance" value="0.5"/>
+    <param name="max_linear_velocity" value="0.3"/>
+    <param name="max_angular_velocity" value="1.0"/>
+  </node>
+
+  <!-- Curve Path Publisher -->
+  <node pkg="victor_planning" exec="simple_curve_path_publisher.py" name="curve_path_publisher" output="screen">
+    <param name="start" value="[0.0, 0.0]"/>
+    <param name="goal" value="[2.0, -2.0]"/>
+    <param name="num_points" value="50"/>
+  </node>
+
+</launch>

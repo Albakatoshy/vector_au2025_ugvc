@@ -1,0 +1,37 @@
+[0.798s] Invoking command in '/home/abood/victor_/src/victor_motion': PYTHONPATH=/home/abood/victor_/build/victor_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abood/victor_/install/victor_motion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/victor_motion build --build-base /home/abood/victor_/build/victor_motion/build install --record /home/abood/victor_/build/victor_motion/install.log --single-version-externally-managed install_data
+[0.950s] running egg_info
+[0.951s] creating ../../build/victor_motion/victor_motion.egg-info
+[0.951s] writing ../../build/victor_motion/victor_motion.egg-info/PKG-INFO
+[0.951s] writing dependency_links to ../../build/victor_motion/victor_motion.egg-info/dependency_links.txt
+[0.951s] writing entry points to ../../build/victor_motion/victor_motion.egg-info/entry_points.txt
+[0.951s] writing requirements to ../../build/victor_motion/victor_motion.egg-info/requires.txt
+[0.951s] writing top-level names to ../../build/victor_motion/victor_motion.egg-info/top_level.txt
+[0.951s] writing manifest file '../../build/victor_motion/victor_motion.egg-info/SOURCES.txt'
+[0.952s] reading manifest file '../../build/victor_motion/victor_motion.egg-info/SOURCES.txt'
+[0.952s] writing manifest file '../../build/victor_motion/victor_motion.egg-info/SOURCES.txt'
+[0.952s] running build
+[0.952s] running build_py
+[0.952s] creating /home/abood/victor_/build/victor_motion/build
+[0.952s] creating /home/abood/victor_/build/victor_motion/build/lib
+[0.952s] creating /home/abood/victor_/build/victor_motion/build/lib/victor_motion
+[0.952s] copying victor_motion/pure_pursuit.py -> /home/abood/victor_/build/victor_motion/build/lib/victor_motion
+[0.952s] copying victor_motion/__init__.py -> /home/abood/victor_/build/victor_motion/build/lib/victor_motion
+[0.953s] running install
+[0.953s] running install_lib
+[0.953s] creating /home/abood/victor_/install/victor_motion/lib/python3.10/site-packages/victor_motion
+[0.953s] copying /home/abood/victor_/build/victor_motion/build/lib/victor_motion/pure_pursuit.py -> /home/abood/victor_/install/victor_motion/lib/python3.10/site-packages/victor_motion
+[0.953s] copying /home/abood/victor_/build/victor_motion/build/lib/victor_motion/__init__.py -> /home/abood/victor_/install/victor_motion/lib/python3.10/site-packages/victor_motion
+[0.953s] byte-compiling /home/abood/victor_/install/victor_motion/lib/python3.10/site-packages/victor_motion/pure_pursuit.py to pure_pursuit.cpython-310.pyc
+[0.954s] byte-compiling /home/abood/victor_/install/victor_motion/lib/python3.10/site-packages/victor_motion/__init__.py to __init__.cpython-310.pyc
+[0.954s] running install_data
+[0.954s] creating /home/abood/victor_/install/victor_motion/share/ament_index
+[0.955s] creating /home/abood/victor_/install/victor_motion/share/ament_index/resource_index
+[0.955s] creating /home/abood/victor_/install/victor_motion/share/ament_index/resource_index/packages
+[0.955s] copying resource/victor_motion -> /home/abood/victor_/install/victor_motion/share/ament_index/resource_index/packages
+[0.955s] copying package.xml -> /home/abood/victor_/install/victor_motion/share/victor_motion
+[0.955s] running install_egg_info
+[0.956s] Copying ../../build/victor_motion/victor_motion.egg-info to /home/abood/victor_/install/victor_motion/lib/python3.10/site-packages/victor_motion-0.0.0-py3.10.egg-info
+[0.956s] running install_scripts
+[0.970s] Installing pure_pursuit script to /home/abood/victor_/install/victor_motion/lib/victor_motion
+[0.970s] writing list of installed files to '/home/abood/victor_/build/victor_motion/install.log'
+[0.988s] Invoked command in '/home/abood/victor_/src/victor_motion' returned '0': PYTHONPATH=/home/abood/victor_/build/victor_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abood/victor_/install/victor_motion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/victor_motion build --build-base /home/abood/victor_/build/victor_motion/build install --record /home/abood/victor_/build/victor_motion/install.log --single-version-externally-managed install_data

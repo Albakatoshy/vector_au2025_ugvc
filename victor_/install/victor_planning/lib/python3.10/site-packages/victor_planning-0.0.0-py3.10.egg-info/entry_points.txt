@@ -1,0 +1,7 @@
+[console_scripts]
+OccupancyGrid_pub = victor_planning.OccupancyGrid_pub:main
+a_star_planner = victor_planning.a_star_planner:main
+rviz_goal_curve_path_publisher = victor_planning.rviz_goal_curve_path_publisher:main
+simple_curve_path_publisher = victor_planning.simple_curve_path_publisher:main
+way_point_navigator = victor_planning.way_point_navigator:main
+

@@ -1,0 +1,9 @@
+/home/abood/victor_/build/victor_nav/CMakeFiles/uninstall.dir
+/home/abood/victor_/build/victor_nav/CMakeFiles/victor_nav_uninstall.dir
+/home/abood/victor_/build/victor_nav/CMakeFiles/test.dir
+/home/abood/victor_/build/victor_nav/CMakeFiles/edit_cache.dir
+/home/abood/victor_/build/victor_nav/CMakeFiles/rebuild_cache.dir
+/home/abood/victor_/build/victor_nav/CMakeFiles/list_install_components.dir
+/home/abood/victor_/build/victor_nav/CMakeFiles/install.dir
+/home/abood/victor_/build/victor_nav/CMakeFiles/install/local.dir
+/home/abood/victor_/build/victor_nav/CMakeFiles/install/strip.dir

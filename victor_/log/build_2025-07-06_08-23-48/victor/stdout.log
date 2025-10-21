@@ -1,0 +1,35 @@
+-- Install configuration: ""
+-- Up-to-date: /home/abood/victor_/install/victor/share/victor/config
+-- Up-to-date: /home/abood/victor_/install/victor/share/victor/config/empty.yaml
+-- Up-to-date: /home/abood/victor_/install/victor/share/victor/config/my_controllers.yaml
+-- Up-to-date: /home/abood/victor_/install/victor/share/victor/config/gazebo_params.yaml
+-- Up-to-date: /home/abood/victor_/install/victor/share/victor/description
+-- Up-to-date: /home/abood/victor_/install/victor/share/victor/description/gazebo_control.xacro
+-- Up-to-date: /home/abood/victor_/install/victor/share/victor/description/camera.xacro
+-- Up-to-date: /home/abood/victor_/install/victor/share/victor/description/ros2_control.xacro
+-- Up-to-date: /home/abood/victor_/install/victor/share/victor/description/inertial_macros.xacro
+-- Up-to-date: /home/abood/victor_/install/victor/share/victor/description/robot_core.xacro
+-- Up-to-date: /home/abood/victor_/install/victor/share/victor/description/robot.urdf.xacro
+-- Up-to-date: /home/abood/victor_/install/victor/share/victor/description/depth_camera.xacro
+-- Up-to-date: /home/abood/victor_/install/victor/share/victor/launch
+-- Up-to-date: /home/abood/victor_/install/victor/share/victor/launch/camera.launch.py
+-- Up-to-date: /home/abood/victor_/install/victor/share/victor/launch/launch_sim.launch.py
+-- Up-to-date: /home/abood/victor_/install/victor/share/victor/launch/ launch_robot.launch.py
+-- Up-to-date: /home/abood/victor_/install/victor/share/victor/launch/rsp.launch.py
+-- Up-to-date: /home/abood/victor_/install/victor/share/victor/worlds
+-- Up-to-date: /home/abood/victor_/install/victor/share/victor/worlds/empty.world
+-- Up-to-date: /home/abood/victor_/install/victor/share/ament_index/resource_index/package_run_dependencies/victor
+-- Up-to-date: /home/abood/victor_/install/victor/share/ament_index/resource_index/parent_prefix_path/victor
+-- Up-to-date: /home/abood/victor_/install/victor/share/victor/environment/ament_prefix_path.sh
+-- Up-to-date: /home/abood/victor_/install/victor/share/victor/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/abood/victor_/install/victor/share/victor/environment/path.sh
+-- Up-to-date: /home/abood/victor_/install/victor/share/victor/environment/path.dsv
+-- Up-to-date: /home/abood/victor_/install/victor/share/victor/local_setup.bash
+-- Up-to-date: /home/abood/victor_/install/victor/share/victor/local_setup.sh
+-- Up-to-date: /home/abood/victor_/install/victor/share/victor/local_setup.zsh
+-- Up-to-date: /home/abood/victor_/install/victor/share/victor/local_setup.dsv
+-- Up-to-date: /home/abood/victor_/install/victor/share/victor/package.dsv
+-- Up-to-date: /home/abood/victor_/install/victor/share/ament_index/resource_index/packages/victor
+-- Up-to-date: /home/abood/victor_/install/victor/share/victor/cmake/victorConfig.cmake
+-- Up-to-date: /home/abood/victor_/install/victor/share/victor/cmake/victorConfig-version.cmake
+-- Up-to-date: /home/abood/victor_/install/victor/share/victor/package.xml

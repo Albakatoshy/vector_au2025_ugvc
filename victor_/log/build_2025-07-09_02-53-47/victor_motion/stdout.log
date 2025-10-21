@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/victor_motion/victor_motion.egg-info/PKG-INFO
+writing dependency_links to ../../build/victor_motion/victor_motion.egg-info/dependency_links.txt
+writing entry points to ../../build/victor_motion/victor_motion.egg-info/entry_points.txt
+writing requirements to ../../build/victor_motion/victor_motion.egg-info/requires.txt
+writing top-level names to ../../build/victor_motion/victor_motion.egg-info/top_level.txt
+reading manifest file '../../build/victor_motion/victor_motion.egg-info/SOURCES.txt'
+writing manifest file '../../build/victor_motion/victor_motion.egg-info/SOURCES.txt'
+running build
+running build_py
+copying victor_motion/pure_pursuit.py -> /home/abood/victor_/build/victor_motion/build/lib/victor_motion
+running install
+running install_lib
+copying /home/abood/victor_/build/victor_motion/build/lib/victor_motion/pure_pursuit.py -> /home/abood/victor_/install/victor_motion/lib/python3.10/site-packages/victor_motion
+byte-compiling /home/abood/victor_/install/victor_motion/lib/python3.10/site-packages/victor_motion/pure_pursuit.py to pure_pursuit.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/abood/victor_/install/victor_motion/lib/python3.10/site-packages/victor_motion-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/victor_motion/victor_motion.egg-info to /home/abood/victor_/install/victor_motion/lib/python3.10/site-packages/victor_motion-0.0.0-py3.10.egg-info
+running install_scripts
+Installing pure_pursuit script to /home/abood/victor_/install/victor_motion/lib/victor_motion
+writing list of installed files to '/home/abood/victor_/build/victor_motion/install.log'

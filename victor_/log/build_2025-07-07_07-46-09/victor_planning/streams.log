@@ -1,0 +1,26 @@
+[0.579s] Invoking command in '/home/abood/victor_/src/victor_planning': PYTHONPATH=/home/abood/victor_/build/victor_planning/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abood/victor_/install/victor_planning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/victor_planning build --build-base /home/abood/victor_/build/victor_planning/build install --record /home/abood/victor_/build/victor_planning/install.log --single-version-externally-managed install_data
+[0.736s] running egg_info
+[0.737s] writing ../../build/victor_planning/victor_planning.egg-info/PKG-INFO
+[0.737s] writing dependency_links to ../../build/victor_planning/victor_planning.egg-info/dependency_links.txt
+[0.737s] writing entry points to ../../build/victor_planning/victor_planning.egg-info/entry_points.txt
+[0.737s] writing requirements to ../../build/victor_planning/victor_planning.egg-info/requires.txt
+[0.737s] writing top-level names to ../../build/victor_planning/victor_planning.egg-info/top_level.txt
+[0.739s] reading manifest file '../../build/victor_planning/victor_planning.egg-info/SOURCES.txt'
+[0.739s] writing manifest file '../../build/victor_planning/victor_planning.egg-info/SOURCES.txt'
+[0.740s] running build
+[0.740s] running build_py
+[0.740s] copying victor_planning/OccupancyGrid_pub.py -> /home/abood/victor_/build/victor_planning/build/lib/victor_planning
+[0.740s] running install
+[0.740s] running install_lib
+[0.741s] copying /home/abood/victor_/build/victor_planning/build/lib/victor_planning/OccupancyGrid_pub.py -> /home/abood/victor_/install/victor_planning/lib/python3.10/site-packages/victor_planning
+[0.741s] byte-compiling /home/abood/victor_/install/victor_planning/lib/python3.10/site-packages/victor_planning/OccupancyGrid_pub.py to OccupancyGrid_pub.cpython-310.pyc
+[0.742s] running install_data
+[0.742s] copying package.xml -> /home/abood/victor_/install/victor_planning/share/victor_planning
+[0.742s] running install_egg_info
+[0.743s] removing '/home/abood/victor_/install/victor_planning/lib/python3.10/site-packages/victor_planning-0.0.0-py3.10.egg-info' (and everything under it)
+[0.743s] Copying ../../build/victor_planning/victor_planning.egg-info to /home/abood/victor_/install/victor_planning/lib/python3.10/site-packages/victor_planning-0.0.0-py3.10.egg-info
+[0.744s] running install_scripts
+[0.757s] Installing OccupancyGrid_pub script to /home/abood/victor_/install/victor_planning/lib/victor_planning
+[0.758s] Installing a_star_planner script to /home/abood/victor_/install/victor_planning/lib/victor_planning
+[0.758s] writing list of installed files to '/home/abood/victor_/build/victor_planning/install.log'
+[0.776s] Invoked command in '/home/abood/victor_/src/victor_planning' returned '0': PYTHONPATH=/home/abood/victor_/build/victor_planning/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abood/victor_/install/victor_planning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/victor_planning build --build-base /home/abood/victor_/build/victor_planning/build install --record /home/abood/victor_/build/victor_planning/install.log --single-version-externally-managed install_data

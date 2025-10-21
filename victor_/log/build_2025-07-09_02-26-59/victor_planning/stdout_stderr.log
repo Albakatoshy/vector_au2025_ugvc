@@ -1,0 +1,29 @@
+running egg_info
+writing ../../build/victor_planning/victor_planning.egg-info/PKG-INFO
+writing dependency_links to ../../build/victor_planning/victor_planning.egg-info/dependency_links.txt
+writing entry points to ../../build/victor_planning/victor_planning.egg-info/entry_points.txt
+writing requirements to ../../build/victor_planning/victor_planning.egg-info/requires.txt
+writing top-level names to ../../build/victor_planning/victor_planning.egg-info/top_level.txt
+reading manifest file '../../build/victor_planning/victor_planning.egg-info/SOURCES.txt'
+writing manifest file '../../build/victor_planning/victor_planning.egg-info/SOURCES.txt'
+running build
+running build_py
+copying victor_planning/way_point_navigator.py -> /home/abood/victor_/build/victor_planning/build/lib/victor_planning
+copying victor_planning/simple_curve_path_publisher.py -> /home/abood/victor_/build/victor_planning/build/lib/victor_planning
+running install
+running install_lib
+copying /home/abood/victor_/build/victor_planning/build/lib/victor_planning/way_point_navigator.py -> /home/abood/victor_/install/victor_planning/lib/python3.10/site-packages/victor_planning
+copying /home/abood/victor_/build/victor_planning/build/lib/victor_planning/simple_curve_path_publisher.py -> /home/abood/victor_/install/victor_planning/lib/python3.10/site-packages/victor_planning
+byte-compiling /home/abood/victor_/install/victor_planning/lib/python3.10/site-packages/victor_planning/way_point_navigator.py to way_point_navigator.cpython-310.pyc
+byte-compiling /home/abood/victor_/install/victor_planning/lib/python3.10/site-packages/victor_planning/simple_curve_path_publisher.py to simple_curve_path_publisher.cpython-310.pyc
+running install_data
+copying package.xml -> /home/abood/victor_/install/victor_planning/share/victor_planning
+running install_egg_info
+removing '/home/abood/victor_/install/victor_planning/lib/python3.10/site-packages/victor_planning-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/victor_planning/victor_planning.egg-info to /home/abood/victor_/install/victor_planning/lib/python3.10/site-packages/victor_planning-0.0.0-py3.10.egg-info
+running install_scripts
+Installing OccupancyGrid_pub script to /home/abood/victor_/install/victor_planning/lib/victor_planning
+Installing a_star_planner script to /home/abood/victor_/install/victor_planning/lib/victor_planning
+Installing simple_curve_path_publisher script to /home/abood/victor_/install/victor_planning/lib/victor_planning
+Installing way_point_navigator script to /home/abood/victor_/install/victor_planning/lib/victor_planning
+writing list of installed files to '/home/abood/victor_/build/victor_planning/install.log'

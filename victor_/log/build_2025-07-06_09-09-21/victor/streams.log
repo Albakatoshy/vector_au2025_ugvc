@@ -1,0 +1,42 @@
+[0.171s] Invoking command in '/home/abood/victor_/build/victor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abood/ros2_test/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/abood/victor_/build/victor -- -j16 -l16
+[0.194s] Invoked command in '/home/abood/victor_/build/victor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abood/ros2_test/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/abood/victor_/build/victor -- -j16 -l16
+[0.201s] Invoking command in '/home/abood/victor_/build/victor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abood/ros2_test/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/abood/victor_/build/victor
+[0.205s] -- Install configuration: ""
+[0.205s] -- Up-to-date: /home/abood/victor_/install/victor/share/victor/config
+[0.205s] -- Up-to-date: /home/abood/victor_/install/victor/share/victor/config/gaz_ros2_ctl_use_sim.yaml
+[0.205s] -- Up-to-date: /home/abood/victor_/install/victor/share/victor/config/empty.yaml
+[0.205s] -- Up-to-date: /home/abood/victor_/install/victor/share/victor/config/my_controllers.yaml
+[0.205s] -- Up-to-date: /home/abood/victor_/install/victor/share/victor/config/joystick.yaml
+[0.205s] -- Up-to-date: /home/abood/victor_/install/victor/share/victor/config/gazebo_params.yaml
+[0.205s] -- Up-to-date: /home/abood/victor_/install/victor/share/victor/description
+[0.205s] -- Up-to-date: /home/abood/victor_/install/victor/share/victor/description/gazebo_control.xacro
+[0.205s] -- Up-to-date: /home/abood/victor_/install/victor/share/victor/description/camera.xacro
+[0.206s] -- Up-to-date: /home/abood/victor_/install/victor/share/victor/description/ros2_control.xacro
+[0.206s] -- Up-to-date: /home/abood/victor_/install/victor/share/victor/description/inertial_macros.xacro
+[0.206s] -- Up-to-date: /home/abood/victor_/install/victor/share/victor/description/robot_core.xacro
+[0.206s] -- Up-to-date: /home/abood/victor_/install/victor/share/victor/description/robot.urdf.xacro
+[0.206s] -- Up-to-date: /home/abood/victor_/install/victor/share/victor/description/depth_camera.xacro
+[0.206s] -- Up-to-date: /home/abood/victor_/install/victor/share/victor/launch
+[0.206s] -- Up-to-date: /home/abood/victor_/install/victor/share/victor/launch/camera.launch.py
+[0.206s] -- Up-to-date: /home/abood/victor_/install/victor/share/victor/launch/launch_sim.launch.py
+[0.206s] -- Up-to-date: /home/abood/victor_/install/victor/share/victor/launch/rsp.launch.py
+[0.206s] -- Up-to-date: /home/abood/victor_/install/victor/share/victor/launch/joystick.launch.py
+[0.206s] -- Up-to-date: /home/abood/victor_/install/victor/share/victor/launch/launch_robot.launch.py
+[0.206s] -- Up-to-date: /home/abood/victor_/install/victor/share/victor/worlds
+[0.206s] -- Up-to-date: /home/abood/victor_/install/victor/share/victor/worlds/empty.world
+[0.206s] -- Up-to-date: /home/abood/victor_/install/victor/share/ament_index/resource_index/package_run_dependencies/victor
+[0.206s] -- Up-to-date: /home/abood/victor_/install/victor/share/ament_index/resource_index/parent_prefix_path/victor
+[0.206s] -- Up-to-date: /home/abood/victor_/install/victor/share/victor/environment/ament_prefix_path.sh
+[0.206s] -- Up-to-date: /home/abood/victor_/install/victor/share/victor/environment/ament_prefix_path.dsv
+[0.206s] -- Up-to-date: /home/abood/victor_/install/victor/share/victor/environment/path.sh
+[0.206s] -- Up-to-date: /home/abood/victor_/install/victor/share/victor/environment/path.dsv
+[0.206s] -- Up-to-date: /home/abood/victor_/install/victor/share/victor/local_setup.bash
+[0.206s] -- Up-to-date: /home/abood/victor_/install/victor/share/victor/local_setup.sh
+[0.206s] -- Up-to-date: /home/abood/victor_/install/victor/share/victor/local_setup.zsh
+[0.206s] -- Up-to-date: /home/abood/victor_/install/victor/share/victor/local_setup.dsv
+[0.206s] -- Installing: /home/abood/victor_/install/victor/share/victor/package.dsv
+[0.206s] -- Up-to-date: /home/abood/victor_/install/victor/share/ament_index/resource_index/packages/victor
+[0.206s] -- Up-to-date: /home/abood/victor_/install/victor/share/victor/cmake/victorConfig.cmake
+[0.206s] -- Up-to-date: /home/abood/victor_/install/victor/share/victor/cmake/victorConfig-version.cmake
+[0.206s] -- Up-to-date: /home/abood/victor_/install/victor/share/victor/package.xml
+[0.207s] Invoked command in '/home/abood/victor_/build/victor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abood/ros2_test/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/abood/victor_/build/victor

@@ -1,0 +1,21 @@
+[0.844s] Invoking command in '/home/abood/victor_/src/send_vel': PYTHONPATH=/home/abood/victor_/build/send_vel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abood/victor_/install/send_vel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/send_vel build --build-base /home/abood/victor_/build/send_vel/build install --record /home/abood/victor_/build/send_vel/install.log --single-version-externally-managed install_data
+[1.017s] running egg_info
+[1.017s] writing ../../build/send_vel/send_vel.egg-info/PKG-INFO
+[1.018s] writing dependency_links to ../../build/send_vel/send_vel.egg-info/dependency_links.txt
+[1.018s] writing entry points to ../../build/send_vel/send_vel.egg-info/entry_points.txt
+[1.018s] writing requirements to ../../build/send_vel/send_vel.egg-info/requires.txt
+[1.018s] writing top-level names to ../../build/send_vel/send_vel.egg-info/top_level.txt
+[1.020s] reading manifest file '../../build/send_vel/send_vel.egg-info/SOURCES.txt'
+[1.021s] writing manifest file '../../build/send_vel/send_vel.egg-info/SOURCES.txt'
+[1.021s] running build
+[1.021s] running build_py
+[1.021s] running install
+[1.021s] running install_lib
+[1.022s] running install_data
+[1.022s] running install_egg_info
+[1.024s] removing '/home/abood/victor_/install/send_vel/lib/python3.10/site-packages/send_vel-0.0.0-py3.10.egg-info' (and everything under it)
+[1.024s] Copying ../../build/send_vel/send_vel.egg-info to /home/abood/victor_/install/send_vel/lib/python3.10/site-packages/send_vel-0.0.0-py3.10.egg-info
+[1.025s] running install_scripts
+[1.047s] Installing diff_driver script to /home/abood/victor_/install/send_vel/lib/send_vel
+[1.048s] writing list of installed files to '/home/abood/victor_/build/send_vel/install.log'
+[1.072s] Invoked command in '/home/abood/victor_/src/send_vel' returned '0': PYTHONPATH=/home/abood/victor_/build/send_vel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abood/victor_/install/send_vel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/send_vel build --build-base /home/abood/victor_/build/send_vel/build install --record /home/abood/victor_/build/send_vel/install.log --single-version-externally-managed install_data

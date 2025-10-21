@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/send_vel/send_vel.egg-info
+writing ../../build/send_vel/send_vel.egg-info/PKG-INFO
+writing dependency_links to ../../build/send_vel/send_vel.egg-info/dependency_links.txt
+writing entry points to ../../build/send_vel/send_vel.egg-info/entry_points.txt
+writing requirements to ../../build/send_vel/send_vel.egg-info/requires.txt
+writing top-level names to ../../build/send_vel/send_vel.egg-info/top_level.txt
+writing manifest file '../../build/send_vel/send_vel.egg-info/SOURCES.txt'
+reading manifest file '../../build/send_vel/send_vel.egg-info/SOURCES.txt'
+writing manifest file '../../build/send_vel/send_vel.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/abood/victor_/build/send_vel/build
+creating /home/abood/victor_/build/send_vel/build/lib
+creating /home/abood/victor_/build/send_vel/build/lib/send_vel
+copying send_vel/__init__.py -> /home/abood/victor_/build/send_vel/build/lib/send_vel
+running install
+running install_lib
+creating /home/abood/victor_/install/send_vel/lib/python3.10/site-packages/send_vel
+copying /home/abood/victor_/build/send_vel/build/lib/send_vel/__init__.py -> /home/abood/victor_/install/send_vel/lib/python3.10/site-packages/send_vel
+byte-compiling /home/abood/victor_/install/send_vel/lib/python3.10/site-packages/send_vel/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/abood/victor_/install/send_vel/share/ament_index
+creating /home/abood/victor_/install/send_vel/share/ament_index/resource_index
+creating /home/abood/victor_/install/send_vel/share/ament_index/resource_index/packages
+copying resource/send_vel -> /home/abood/victor_/install/send_vel/share/ament_index/resource_index/packages
+copying package.xml -> /home/abood/victor_/install/send_vel/share/send_vel
+running install_egg_info
+Copying ../../build/send_vel/send_vel.egg-info to /home/abood/victor_/install/send_vel/lib/python3.10/site-packages/send_vel-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/abood/victor_/build/send_vel/install.log'

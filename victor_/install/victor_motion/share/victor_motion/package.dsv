@@ -1,0 +1,6 @@
+source;share/victor_motion/hook/pythonpath.ps1
+source;share/victor_motion/hook/pythonpath.dsv
+source;share/victor_motion/hook/pythonpath.sh
+source;share/victor_motion/hook/ament_prefix_path.ps1
+source;share/victor_motion/hook/ament_prefix_path.dsv
+source;share/victor_motion/hook/ament_prefix_path.sh

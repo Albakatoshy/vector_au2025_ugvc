@@ -1,0 +1,8 @@
+source;share/victor/hook/cmake_prefix_path.ps1
+source;share/victor/hook/cmake_prefix_path.dsv
+source;share/victor/hook/cmake_prefix_path.sh
+source;share/victor/local_setup.bash
+source;share/victor/local_setup.dsv
+source;share/victor/local_setup.ps1
+source;share/victor/local_setup.sh
+source;share/victor/local_setup.zsh

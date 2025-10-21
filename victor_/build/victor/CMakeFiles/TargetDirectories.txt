@@ -1,0 +1,9 @@
+/home/abood/victor_/build/victor/CMakeFiles/uninstall.dir
+/home/abood/victor_/build/victor/CMakeFiles/victor_uninstall.dir
+/home/abood/victor_/build/victor/CMakeFiles/test.dir
+/home/abood/victor_/build/victor/CMakeFiles/edit_cache.dir
+/home/abood/victor_/build/victor/CMakeFiles/rebuild_cache.dir
+/home/abood/victor_/build/victor/CMakeFiles/list_install_components.dir
+/home/abood/victor_/build/victor/CMakeFiles/install.dir
+/home/abood/victor_/build/victor/CMakeFiles/install/local.dir
+/home/abood/victor_/build/victor/CMakeFiles/install/strip.dir

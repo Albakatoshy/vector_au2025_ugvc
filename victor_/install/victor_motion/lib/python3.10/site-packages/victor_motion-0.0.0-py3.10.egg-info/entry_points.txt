@@ -1,0 +1,3 @@
+[console_scripts]
+pure_pursuit = victor_motion.pure_pursuit:main
+

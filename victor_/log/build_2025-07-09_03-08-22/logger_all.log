@@ -1,0 +1,291 @@
+[0.071s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.071s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x740dce977c70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x740dce976ec0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x740dce976ec0>>, mixin_verb=('build',))
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.189s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/abood/victor_'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/send_vel) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/send_vel) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/send_vel) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/send_vel) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/send_vel) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/send_vel) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/send_vel) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/send_vel) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/send_vel) by extension 'ros'
+[0.200s] DEBUG:colcon.colcon_core.package_identification:Package 'src/send_vel' with type 'ros.ament_python' and name 'send_vel'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/victor) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/victor) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/victor) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/victor) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/victor) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/victor) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/victor) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/victor) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/victor) by extension 'ros'
+[0.207s] DEBUG:colcon.colcon_core.package_identification:Package 'src/victor' with type 'ros.ament_cmake' and name 'victor'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/victor_motion) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/victor_motion) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/victor_motion) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/victor_motion) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/victor_motion) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/victor_motion) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/victor_motion) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/victor_motion) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/victor_motion) by extension 'ros'
+[0.208s] DEBUG:colcon.colcon_core.package_identification:Package 'src/victor_motion' with type 'ros.ament_python' and name 'victor_motion'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/victor_planning) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/victor_planning) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/victor_planning) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/victor_planning) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/victor_planning) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/victor_planning) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/victor_planning) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/victor_planning) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/victor_planning) by extension 'ros'
+[0.209s] DEBUG:colcon.colcon_core.package_identification:Package 'src/victor_planning' with type 'ros.ament_python' and name 'victor_planning'
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.223s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/abood/victor_/install
+[0.225s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 475 installed packages in /opt/ros/humble
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'send_vel' build argument 'cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'send_vel' build argument 'cmake_target' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'send_vel' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'send_vel' build argument 'cmake_clean_cache' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'send_vel' build argument 'cmake_clean_first' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'send_vel' build argument 'cmake_force_configure' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'send_vel' build argument 'ament_cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'send_vel' build argument 'catkin_cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'send_vel' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.263s] DEBUG:colcon.colcon_core.verb:Building package 'send_vel' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/abood/victor_/build/send_vel', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/abood/victor_/install/send_vel', 'merge_install': False, 'path': '/home/abood/victor_/src/send_vel', 'symlink_install': False, 'test_result_base': None}
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'victor' build argument 'cmake_args' from command line to 'None'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'victor' build argument 'cmake_target' from command line to 'None'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'victor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'victor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'victor' build argument 'cmake_clean_first' from command line to 'False'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'victor' build argument 'cmake_force_configure' from command line to 'False'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'victor' build argument 'ament_cmake_args' from command line to 'None'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'victor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'victor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.263s] DEBUG:colcon.colcon_core.verb:Building package 'victor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/abood/victor_/build/victor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/abood/victor_/install/victor', 'merge_install': False, 'path': '/home/abood/victor_/src/victor', 'symlink_install': False, 'test_result_base': None}
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'victor_motion' build argument 'cmake_args' from command line to 'None'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'victor_motion' build argument 'cmake_target' from command line to 'None'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'victor_motion' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'victor_motion' build argument 'cmake_clean_cache' from command line to 'False'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'victor_motion' build argument 'cmake_clean_first' from command line to 'False'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'victor_motion' build argument 'cmake_force_configure' from command line to 'False'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'victor_motion' build argument 'ament_cmake_args' from command line to 'None'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'victor_motion' build argument 'catkin_cmake_args' from command line to 'None'
+[0.263s] Level 5:colcon.colcon_core.verb:set package 'victor_motion' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.263s] DEBUG:colcon.colcon_core.verb:Building package 'victor_motion' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/abood/victor_/build/victor_motion', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/abood/victor_/install/victor_motion', 'merge_install': False, 'path': '/home/abood/victor_/src/victor_motion', 'symlink_install': False, 'test_result_base': None}
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'victor_planning' build argument 'cmake_args' from command line to 'None'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'victor_planning' build argument 'cmake_target' from command line to 'None'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'victor_planning' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'victor_planning' build argument 'cmake_clean_cache' from command line to 'False'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'victor_planning' build argument 'cmake_clean_first' from command line to 'False'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'victor_planning' build argument 'cmake_force_configure' from command line to 'False'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'victor_planning' build argument 'ament_cmake_args' from command line to 'None'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'victor_planning' build argument 'catkin_cmake_args' from command line to 'None'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'victor_planning' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.264s] DEBUG:colcon.colcon_core.verb:Building package 'victor_planning' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/abood/victor_/build/victor_planning', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/abood/victor_/install/victor_planning', 'merge_install': False, 'path': '/home/abood/victor_/src/victor_planning', 'symlink_install': False, 'test_result_base': None}
+[0.264s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.264s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.265s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/abood/victor_/src/send_vel' with build type 'ament_python'
+[0.265s] Level 1:colcon.colcon_core.shell:create_environment_hook('send_vel', 'ament_prefix_path')
+[0.266s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abood/victor_/install/send_vel/share/send_vel/hook/ament_prefix_path.ps1'
+[0.267s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abood/victor_/install/send_vel/share/send_vel/hook/ament_prefix_path.dsv'
+[0.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abood/victor_/install/send_vel/share/send_vel/hook/ament_prefix_path.sh'
+[0.268s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.268s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.270s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/abood/victor_/src/victor' with build type 'ament_cmake'
+[0.270s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/abood/victor_/src/victor'
+[0.270s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.270s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.273s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/abood/victor_/src/victor_motion' with build type 'ament_python'
+[0.273s] Level 1:colcon.colcon_core.shell:create_environment_hook('victor_motion', 'ament_prefix_path')
+[0.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abood/victor_/install/victor_motion/share/victor_motion/hook/ament_prefix_path.ps1'
+[0.273s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abood/victor_/install/victor_motion/share/victor_motion/hook/ament_prefix_path.dsv'
+[0.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abood/victor_/install/victor_motion/share/victor_motion/hook/ament_prefix_path.sh'
+[0.274s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.274s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.276s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/abood/victor_/src/victor_planning' with build type 'ament_python'
+[0.276s] Level 1:colcon.colcon_core.shell:create_environment_hook('victor_planning', 'ament_prefix_path')
+[0.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abood/victor_/install/victor_planning/share/victor_planning/hook/ament_prefix_path.ps1'
+[0.276s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abood/victor_/install/victor_planning/share/victor_planning/hook/ament_prefix_path.dsv'
+[0.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abood/victor_/install/victor_planning/share/victor_planning/hook/ament_prefix_path.sh'
+[0.277s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.277s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.454s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/abood/victor_/src/send_vel'
+[0.454s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.454s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abood/victor_/build/victor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abood/victor_/install/victor_planning:/home/abood/victor_/install/victor_motion:/home/abood/victor_/install/send_vel:/opt/ros/humble /usr/bin/cmake --build /home/abood/victor_/build/victor -- -j16 -l16
+[0.639s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/abood/victor_/src/victor_motion'
+[0.639s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.639s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.819s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/abood/victor_/src/victor_planning'
+[0.819s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.819s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abood/victor_/build/victor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abood/victor_/install/victor_planning:/home/abood/victor_/install/victor_motion:/home/abood/victor_/install/send_vel:/opt/ros/humble /usr/bin/cmake --build /home/abood/victor_/build/victor -- -j16 -l16
+[0.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abood/victor_/build/victor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abood/victor_/install/victor_planning:/home/abood/victor_/install/victor_motion:/home/abood/victor_/install/send_vel:/opt/ros/humble /usr/bin/cmake --install /home/abood/victor_/build/victor
+[0.835s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(victor)
+[0.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abood/victor_/build/victor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abood/victor_/install/victor_planning:/home/abood/victor_/install/victor_motion:/home/abood/victor_/install/send_vel:/opt/ros/humble /usr/bin/cmake --install /home/abood/victor_/build/victor
+[0.837s] Level 1:colcon.colcon_core.environment:checking '/home/abood/victor_/install/victor' for CMake module files
+[0.837s] Level 1:colcon.colcon_core.environment:checking '/home/abood/victor_/install/victor' for CMake config files
+[0.837s] Level 1:colcon.colcon_core.shell:create_environment_hook('victor', 'cmake_prefix_path')
+[0.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abood/victor_/install/victor/share/victor/hook/cmake_prefix_path.ps1'
+[0.838s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abood/victor_/install/victor/share/victor/hook/cmake_prefix_path.dsv'
+[0.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abood/victor_/install/victor/share/victor/hook/cmake_prefix_path.sh'
+[0.838s] Level 1:colcon.colcon_core.environment:checking '/home/abood/victor_/install/victor/lib'
+[0.838s] Level 1:colcon.colcon_core.environment:checking '/home/abood/victor_/install/victor/bin'
+[0.838s] Level 1:colcon.colcon_core.environment:checking '/home/abood/victor_/install/victor/lib/pkgconfig/victor.pc'
+[0.839s] Level 1:colcon.colcon_core.environment:checking '/home/abood/victor_/install/victor/lib/python3.10/site-packages'
+[0.839s] Level 1:colcon.colcon_core.environment:checking '/home/abood/victor_/install/victor/bin'
+[0.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/abood/victor_/install/victor/share/victor/package.ps1'
+[0.839s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abood/victor_/install/victor/share/victor/package.dsv'
+[0.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/abood/victor_/install/victor/share/victor/package.sh'
+[0.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/abood/victor_/install/victor/share/victor/package.bash'
+[0.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/abood/victor_/install/victor/share/victor/package.zsh'
+[0.841s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abood/victor_/install/victor/share/colcon-core/packages/victor)
+[0.841s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(victor)
+[0.842s] Level 1:colcon.colcon_core.environment:checking '/home/abood/victor_/install/victor' for CMake module files
+[0.842s] Level 1:colcon.colcon_core.environment:checking '/home/abood/victor_/install/victor' for CMake config files
+[0.842s] Level 1:colcon.colcon_core.shell:create_environment_hook('victor', 'cmake_prefix_path')
+[0.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abood/victor_/install/victor/share/victor/hook/cmake_prefix_path.ps1'
+[0.842s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abood/victor_/install/victor/share/victor/hook/cmake_prefix_path.dsv'
+[0.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abood/victor_/install/victor/share/victor/hook/cmake_prefix_path.sh'
+[0.843s] Level 1:colcon.colcon_core.environment:checking '/home/abood/victor_/install/victor/lib'
+[0.843s] Level 1:colcon.colcon_core.environment:checking '/home/abood/victor_/install/victor/bin'
+[0.843s] Level 1:colcon.colcon_core.environment:checking '/home/abood/victor_/install/victor/lib/pkgconfig/victor.pc'
+[0.843s] Level 1:colcon.colcon_core.environment:checking '/home/abood/victor_/install/victor/lib/python3.10/site-packages'
+[0.843s] Level 1:colcon.colcon_core.environment:checking '/home/abood/victor_/install/victor/bin'
+[0.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/abood/victor_/install/victor/share/victor/package.ps1'
+[0.844s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abood/victor_/install/victor/share/victor/package.dsv'
+[0.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/abood/victor_/install/victor/share/victor/package.sh'
+[0.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/abood/victor_/install/victor/share/victor/package.bash'
+[0.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/abood/victor_/install/victor/share/victor/package.zsh'
+[0.845s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abood/victor_/install/victor/share/colcon-core/packages/victor)
+[1.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abood/victor_/src/send_vel': PYTHONPATH=/home/abood/victor_/build/send_vel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abood/victor_/install/send_vel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/send_vel build --build-base /home/abood/victor_/build/send_vel/build install --record /home/abood/victor_/build/send_vel/install.log --single-version-externally-managed install_data
+[1.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abood/victor_/src/victor_planning': PYTHONPATH=/home/abood/victor_/build/victor_planning/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abood/victor_/install/victor_planning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/victor_planning build --build-base /home/abood/victor_/build/victor_planning/build install --record /home/abood/victor_/build/victor_planning/install.log --single-version-externally-managed install_data
+[1.090s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abood/victor_/src/victor_motion': PYTHONPATH=/home/abood/victor_/build/victor_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abood/victor_/install/victor_motion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/victor_motion build --build-base /home/abood/victor_/build/victor_motion/build install --record /home/abood/victor_/build/victor_motion/install.log --single-version-externally-managed install_data
+[1.310s] Level 1:colcon.colcon_core.environment:checking '/home/abood/victor_/install/send_vel' for CMake module files
+[1.310s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abood/victor_/src/send_vel' returned '0': PYTHONPATH=/home/abood/victor_/build/send_vel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abood/victor_/install/send_vel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/send_vel build --build-base /home/abood/victor_/build/send_vel/build install --record /home/abood/victor_/build/send_vel/install.log --single-version-externally-managed install_data
+[1.311s] Level 1:colcon.colcon_core.environment:checking '/home/abood/victor_/install/send_vel' for CMake config files
+[1.311s] Level 1:colcon.colcon_core.environment:checking '/home/abood/victor_/install/send_vel/lib'
+[1.311s] Level 1:colcon.colcon_core.environment:checking '/home/abood/victor_/install/send_vel/bin'
+[1.311s] Level 1:colcon.colcon_core.environment:checking '/home/abood/victor_/install/send_vel/lib/pkgconfig/send_vel.pc'
+[1.311s] Level 1:colcon.colcon_core.environment:checking '/home/abood/victor_/install/send_vel/lib/python3.10/site-packages'
+[1.311s] Level 1:colcon.colcon_core.shell:create_environment_hook('send_vel', 'pythonpath')
+[1.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abood/victor_/install/send_vel/share/send_vel/hook/pythonpath.ps1'
+[1.312s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abood/victor_/install/send_vel/share/send_vel/hook/pythonpath.dsv'
+[1.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abood/victor_/install/send_vel/share/send_vel/hook/pythonpath.sh'
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/abood/victor_/install/send_vel/bin'
+[1.313s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(send_vel)
+[1.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/abood/victor_/install/send_vel/share/send_vel/package.ps1'
+[1.313s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abood/victor_/install/send_vel/share/send_vel/package.dsv'
+[1.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/abood/victor_/install/send_vel/share/send_vel/package.sh'
+[1.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/abood/victor_/install/send_vel/share/send_vel/package.bash'
+[1.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/abood/victor_/install/send_vel/share/send_vel/package.zsh'
+[1.314s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abood/victor_/install/send_vel/share/colcon-core/packages/send_vel)
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/abood/victor_/install/victor_motion' for CMake module files
+[1.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abood/victor_/src/victor_motion' returned '0': PYTHONPATH=/home/abood/victor_/build/victor_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abood/victor_/install/victor_motion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/victor_motion build --build-base /home/abood/victor_/build/victor_motion/build install --record /home/abood/victor_/build/victor_motion/install.log --single-version-externally-managed install_data
+[1.316s] Level 1:colcon.colcon_core.environment:checking '/home/abood/victor_/install/victor_motion' for CMake config files
+[1.316s] Level 1:colcon.colcon_core.environment:checking '/home/abood/victor_/install/victor_motion/lib'
+[1.316s] Level 1:colcon.colcon_core.environment:checking '/home/abood/victor_/install/victor_motion/bin'
+[1.316s] Level 1:colcon.colcon_core.environment:checking '/home/abood/victor_/install/victor_motion/lib/pkgconfig/victor_motion.pc'
+[1.316s] Level 1:colcon.colcon_core.environment:checking '/home/abood/victor_/install/victor_motion/lib/python3.10/site-packages'
+[1.316s] Level 1:colcon.colcon_core.shell:create_environment_hook('victor_motion', 'pythonpath')
+[1.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abood/victor_/install/victor_motion/share/victor_motion/hook/pythonpath.ps1'
+[1.317s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abood/victor_/install/victor_motion/share/victor_motion/hook/pythonpath.dsv'
+[1.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abood/victor_/install/victor_motion/share/victor_motion/hook/pythonpath.sh'
+[1.317s] Level 1:colcon.colcon_core.environment:checking '/home/abood/victor_/install/victor_motion/bin'
+[1.317s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(victor_motion)
+[1.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/abood/victor_/install/victor_motion/share/victor_motion/package.ps1'
+[1.318s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abood/victor_/install/victor_motion/share/victor_motion/package.dsv'
+[1.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/abood/victor_/install/victor_motion/share/victor_motion/package.sh'
+[1.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/abood/victor_/install/victor_motion/share/victor_motion/package.bash'
+[1.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/abood/victor_/install/victor_motion/share/victor_motion/package.zsh'
+[1.319s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abood/victor_/install/victor_motion/share/colcon-core/packages/victor_motion)
+[1.328s] Level 1:colcon.colcon_core.environment:checking '/home/abood/victor_/install/victor_planning' for CMake module files
+[1.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abood/victor_/src/victor_planning' returned '0': PYTHONPATH=/home/abood/victor_/build/victor_planning/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abood/victor_/install/victor_planning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/victor_planning build --build-base /home/abood/victor_/build/victor_planning/build install --record /home/abood/victor_/build/victor_planning/install.log --single-version-externally-managed install_data
+[1.329s] Level 1:colcon.colcon_core.environment:checking '/home/abood/victor_/install/victor_planning' for CMake config files
+[1.329s] Level 1:colcon.colcon_core.environment:checking '/home/abood/victor_/install/victor_planning/lib'
+[1.329s] Level 1:colcon.colcon_core.environment:checking '/home/abood/victor_/install/victor_planning/bin'
+[1.329s] Level 1:colcon.colcon_core.environment:checking '/home/abood/victor_/install/victor_planning/lib/pkgconfig/victor_planning.pc'
+[1.329s] Level 1:colcon.colcon_core.environment:checking '/home/abood/victor_/install/victor_planning/lib/python3.10/site-packages'
+[1.329s] Level 1:colcon.colcon_core.shell:create_environment_hook('victor_planning', 'pythonpath')
+[1.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abood/victor_/install/victor_planning/share/victor_planning/hook/pythonpath.ps1'
+[1.330s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abood/victor_/install/victor_planning/share/victor_planning/hook/pythonpath.dsv'
+[1.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abood/victor_/install/victor_planning/share/victor_planning/hook/pythonpath.sh'
+[1.330s] Level 1:colcon.colcon_core.environment:checking '/home/abood/victor_/install/victor_planning/bin'
+[1.330s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(victor_planning)
+[1.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/abood/victor_/install/victor_planning/share/victor_planning/package.ps1'
+[1.331s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abood/victor_/install/victor_planning/share/victor_planning/package.dsv'
+[1.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/abood/victor_/install/victor_planning/share/victor_planning/package.sh'
+[1.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/abood/victor_/install/victor_planning/share/victor_planning/package.bash'
+[1.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/abood/victor_/install/victor_planning/share/victor_planning/package.zsh'
+[1.332s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abood/victor_/install/victor_planning/share/colcon-core/packages/victor_planning)
+[1.332s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.332s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.332s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.332s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.336s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.336s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.336s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.344s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.344s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abood/victor_/install/local_setup.ps1'
+[1.345s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/abood/victor_/install/_local_setup_util_ps1.py'
+[1.346s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abood/victor_/install/setup.ps1'
+[1.347s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abood/victor_/install/local_setup.sh'
+[1.347s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/abood/victor_/install/_local_setup_util_sh.py'
+[1.348s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abood/victor_/install/setup.sh'
+[1.348s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abood/victor_/install/local_setup.bash'
+[1.349s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abood/victor_/install/setup.bash'
+[1.349s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abood/victor_/install/local_setup.zsh'
+[1.350s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abood/victor_/install/setup.zsh'
