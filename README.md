@@ -18,3 +18,5 @@ Victor Rover integrates several core robotics systems:
 ---
 
 [Victor Rover simulation data in gazebo and rviz with joystick movement (Drive link)](https://drive.google.com/file/d/1UPtVSwIQgboo2zaJmM7rXgQonkDKGnJq/view?usp=drive_link)
+
+- [Simulation log – Victor Rover – test waypoint navigation](https://drive.google.com/file/d/1Q2g_Y_gwD17C7CCxWoJ1-8lpd2v_t40q/view?usp=drive_link)
